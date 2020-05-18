@@ -6,19 +6,52 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Logo</a>
+
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="#">Recipes</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Technology</a>
+    </li>
+
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Extra Stuff for now
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="#">Link 1</a>
+        <a class="dropdown-item" href="#">Link 2</a>
+        <a class="dropdown-item" href="#">Link 3</a>
+      </div>
+    </li>
+  </ul>
+</nav>
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          <code>Toaster Strudel</code>
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://linkedin.com/in/grantlal"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Dis My LinkedIn
         </a>
+
       </header>
+      <body>
+      <div class="container">
+  <div class="jumbotron">
+    <h1>Just a Jumbo to mess with page length</h1>      
+  </div>     
+</div>
+      </body>
+      
     </div>
   );
 }
