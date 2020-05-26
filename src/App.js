@@ -7,19 +7,21 @@ function App() {
     <div className="App">
       <header className="App-header">
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="#">Logo</a>
+  <a class="navbar-brand" href="">
+    <img src="images/header.jpg" alt="Logo" />
+  </a>
 
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#">Recipes</a>
+      <a class="nav-link" href="#Recipes">Recipes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Technology</a>
+      <a class="nav-link" href="#Technology">Technology</a>
     </li>
 
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Extra Stuff for now
+        Miscellaneous
       </a>
       <div class="dropdown-menu">
         <a class="dropdown-item" href="#">Link 1</a>
