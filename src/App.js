@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Recipes from '../src/components/Recipes'
+import Home from '../src/components/Home'
 import {
   BrowserRouter as Router,
   Switch,
@@ -41,9 +42,7 @@ function App() {
 </nav>
 
 <Switch>
-  <Route exact path="/">
-    <Home />
-  </Route>
+  <Route path="/Home" component={Home} />
   <Route path="/Recipes" component={Recipes} />
 
 </Switch>
@@ -76,11 +75,4 @@ function App() {
   );
 }
 
-function Home() {
-  return (
-    <body>
-    <h2> Yolo </h2>
-    </body>
-  )
-}
 export default App;

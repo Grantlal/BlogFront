@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 
 
-class Recipes extends React.Component {
+class Home extends React.Component {
     constructor() {
         super();
     };
@@ -23,6 +23,6 @@ componentWillUnmount() {
 export default function render()
 {
         return (
-          <h2>Recipes Page</h2>
+          <h2>Home Page</h2>
         );
 }
