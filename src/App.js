@@ -2,7 +2,7 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Recipes from '../src/components/Recipes'
-import Home from '../src/components/Home'
+import Home from './components/Home/Home'
 import Technology from '../src/components/Technology'
 import Hockey from '../src/components/Hockey'
 import Boarding from '../src/components/Boarding'
@@ -71,13 +71,7 @@ function App() {
         </a>
 
       </header>
-      <body>
-      <div class="container">
-  <div class="jumbotron">
-    <h1>Just a Jumbo to mess with page length</h1>      
-  </div>     
-</div>
-      </body>
+      
       
     </div>
   );

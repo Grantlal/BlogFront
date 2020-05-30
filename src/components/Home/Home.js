@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './Home.css';
+
 
 
 class Home extends React.Component {
@@ -23,6 +25,14 @@ componentWillUnmount() {
 export default function render()
 {
         return (
-          <h2>Home Page</h2>
+          <div>
+            <h2>Home Page</h2>
+            <div class="container">
+                <div class="jumbotron" id="Jumbo">
+                    <h2>Welcome to Xander Zone</h2>      
+                </div>     
+            </div>
+         </div>
         );
 }
+
