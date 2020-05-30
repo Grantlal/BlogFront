@@ -3,6 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import Recipes from '../src/components/Recipes'
 import Home from '../src/components/Home'
+import Technology from '../src/components/Technology'
+import Hockey from '../src/components/Hockey'
+import Boarding from '../src/components/Boarding'
+import Misc from '../src/components/Misc'
 import {
   BrowserRouter as Router,
   Switch,
@@ -30,12 +34,12 @@ function App() {
 
     <li class="nav-item dropdown">
       <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Miscellaneous
+        Sports
       </a>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">Link 1</a>
-        <a class="dropdown-item" href="#">Link 2</a>
-        <a class="dropdown-item" href="#">Link 3</a>
+        <a class="dropdown-item" href="/Hockey">Hockey</a>
+        <a class="dropdown-item" href="/Boarding">Boarding</a>
+        <a class="dropdown-item" href="/Misc">Miscellaneous</a>
       </div>
     </li>
   </ul>
@@ -44,6 +48,10 @@ function App() {
 <Switch>
   <Route path="/Home" component={Home} />
   <Route path="/Recipes" component={Recipes} />
+  <Route path="/Technology" component={Technology} />
+  <Route path="/Hockey" component={Hockey} />
+  <Route path="/Boarding" component={Boarding} />
+  <Route path="/Misc" component={Misc} />
 
 </Switch>
 </Router>
