@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './Misc.css';
 
 
-class Hockey extends React.Component {
+class Misc extends React.Component {
     constructor() {
         super();
     };
@@ -23,6 +24,6 @@ componentWillUnmount() {
 export default function render()
 {
         return (
-          <h2>Hockey Page</h2>
+          <h2>Miscellaneous Page</h2>
         );
 }

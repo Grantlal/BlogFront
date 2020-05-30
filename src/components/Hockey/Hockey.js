@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './Hockey.css';
 
 
-class Technology extends React.Component {
+class Hockey extends React.Component {
     constructor() {
         super();
     };
@@ -23,6 +24,6 @@ componentWillUnmount() {
 export default function render()
 {
         return (
-          <h2>Technology Page</h2>
+          <h2>Hockey Page</h2>
         );
 }

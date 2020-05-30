@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './Technology.css';
 
 
-class Misc extends React.Component {
+class Technology extends React.Component {
     constructor() {
         super();
     };
@@ -23,6 +24,6 @@ componentWillUnmount() {
 export default function render()
 {
         return (
-          <h2>Miscellaneous Page</h2>
+          <h2>Technology Page</h2>
         );
 }

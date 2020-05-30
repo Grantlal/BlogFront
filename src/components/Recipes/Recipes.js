@@ -1,8 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import './Recipes.css';
 
 
-class Boarding extends React.Component {
+class Recipes extends React.Component {
     constructor() {
         super();
     };
@@ -23,6 +24,6 @@ componentWillUnmount() {
 export default function render()
 {
         return (
-          <h2>Boarding Page</h2>
+          <h2>Recipes Page</h2>
         );
 }

@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Recipes from '../src/components/Recipes'
+import Recipes from './components/Recipes/Recipes'
 import Home from './components/Home/Home'
-import Technology from '../src/components/Technology'
-import Hockey from '../src/components/Hockey'
-import Boarding from '../src/components/Boarding'
-import Misc from '../src/components/Misc'
+import Technology from './components/Technology/Technology'
+import Hockey from './components/Hockey/Hockey'
+import Boarding from './components/Boarding/Boarding'
+import Misc from './components/Misc/Misc'
 import {
   BrowserRouter as Router,
   Switch,
