@@ -10,8 +10,7 @@ import Misc from './components/Misc/Misc'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 
 function App() {
@@ -33,7 +32,7 @@ function App() {
     </li>
 
     <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+      <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
         Sports
       </a>
       <div class="dropdown-menu">
