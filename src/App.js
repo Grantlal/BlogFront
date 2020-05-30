@@ -1,22 +1,30 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Recipes from '../src/components/Recipes'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+      <Router>
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="">
+  <a class="navbar-brand" href="/Home">
     <img src="images/header.jpg" alt="Logo" />
   </a>
 
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="#Recipes">Recipes</a>
+      <a class="nav-link" href="/Recipes">Recipes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#Technology">Technology</a>
+      <a class="nav-link" href="/Technology">Technology</a>
     </li>
 
     <li class="nav-item dropdown">
@@ -31,6 +39,16 @@ function App() {
     </li>
   </ul>
 </nav>
+
+<Switch>
+  <Route exact path="/">
+    <Home />
+  </Route>
+  <Route path="/Recipes" component={Recipes} />
+
+</Switch>
+</Router>
+
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -58,4 +76,11 @@ function App() {
   );
 }
 
+function Home() {
+  return (
+    <body>
+    <h2> Yolo </h2>
+    </body>
+  )
+}
 export default App;
