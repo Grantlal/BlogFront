@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Recipes from './components/Recipes/Recipes'
 import Home from './components/Home/Home'
@@ -10,16 +9,14 @@ import Misc from './components/Misc/Misc'
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Redirect
-} from "react-router-dom";
+  Route} from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
       <Router>
-      <Redirect from='/' to='/Home' />
+      <Route path='/' exact={true} component={Home} />
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
   <a class="navbar-brand" href="/Home">
     <img src="images/header.jpg" alt="Logo" />
@@ -53,27 +50,9 @@ function App() {
   <Route path="/Hockey" component={Hockey} />
   <Route path="/Boarding" component={Boarding} />
   <Route path="/Misc" component={Misc} />
-
 </Switch>
 </Router>
-
-
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <code>Toaster Strudel</code>
-        </p>
-        <a
-          className="App-link"
-          href="https://linkedin.com/in/grantlal"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Dis My LinkedIn
-        </a>
-
-      </header>
-      
-      
+      </header> 
     </div>
   );
 }
