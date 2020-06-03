@@ -10,7 +10,8 @@ import Misc from './components/Misc/Misc'
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Redirect
 } from "react-router-dom";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Router>
+      <Redirect from='/' to='/Home' />
       <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
   <a class="navbar-brand" href="/Home">
     <img src="images/header.jpg" alt="Logo" />
