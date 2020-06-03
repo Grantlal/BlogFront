@@ -16,44 +16,44 @@ function App() {
     <div className="App">
       <header className="App-header">
       <Router>
-      <Route path='/' exact={true} component={Home} />
-      <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="/Home">
-    <img src="images/header.jpg" alt="Logo" />
-  </a>
+        <Route path='/' exact={true} component={Home} />
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <a class="navbar-brand" href="/Home">
+          <img src="images/header.jpg" alt="Logo" />
+        </a>
 
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="/Recipes">Recipes</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="/Technology">Technology</a>
-    </li>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/Recipes">Recipes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Technology">Technology</a>
+          </li>
 
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-        Sports
-      </a>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="/Hockey">Hockey</a>
-        <a class="dropdown-item" href="/Boarding">Boarding</a>
-        <a class="dropdown-item" href="/Misc">Miscellaneous</a>
-      </div>
-    </li>
-  </ul>
-</nav>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
+              Sports
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/Hockey">Hockey</a>
+              <a class="dropdown-item" href="/Boarding">Boarding</a>
+              <a class="dropdown-item" href="/Misc">Miscellaneous</a>
+            </div>
+          </li>
+        </ul>
+        </nav>
 
-<Switch>
-  <Route path="/Home" component={Home} />
-  <Route path="/Recipes" component={Recipes} />
-  <Route path="/Technology" component={Technology} />
-  <Route path="/Hockey" component={Hockey} />
-  <Route path="/Boarding" component={Boarding} />
-  <Route path="/Misc" component={Misc} />
-</Switch>
-</Router>
-      </header> 
-    </div>
+      <Switch>
+        <Route path="/Home" component={Home} />
+        <Route path="/Recipes" component={Recipes} />
+        <Route path="/Technology" component={Technology} />
+        <Route path="/Hockey" component={Hockey} />
+        <Route path="/Boarding" component={Boarding} />
+        <Route path="/Misc" component={Misc} />
+      </Switch>
+    </Router>
+  </header> 
+</div>
   );
 }
 
