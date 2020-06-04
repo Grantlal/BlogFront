@@ -18,7 +18,8 @@ export default function render()
                     ways to approach problems, etc. Then I get to talk about how I felt about using them, and if you know me, you know I like talking about my opinions.
                 </p>
                 <p>
-                    On top of just technology I also want to talk about the other passions I have. 
+                    On top of just technology I also want to talk about the other passions I have. For now this will include any recipes I have been working on and some insights
+                    on sports I'm interested in as well.
                 </p>
             </div>
          </div>
