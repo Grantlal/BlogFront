@@ -24,6 +24,11 @@ export default function render()
                     depending on seasons, and lately I have reignited my fire for skateboarding. Hockey is self explanatory. Lastly I also have a lot of minor interests, or 
                      more so less interesting topics, that I might have some extra content for like running or basketball. These will go under miscellaneous for now. 
                 </p>
+                <p>
+                    If you've made it this far I just wanted to thank you for supporting me! If there's any comments or ideas you have about what I can do with the blog
+                    please don't hesitate to reach out to me through whatever platform you know how to reach me at. Otherwise I'll get some professional-ish contact info
+                    up soon. 
+                </p>
                 
             </div>
          </div>
