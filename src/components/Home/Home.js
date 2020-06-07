@@ -18,9 +18,13 @@ export default function render()
                     ways to approach problems, etc. Then I get to talk about how I felt about using them, and if you know me, you know I like talking about my opinions.
                 </p>
                 <p>
-                    On top of just technology I also want to talk about the other passions I have. For now this will include any recipes I have been working on and some insights
-                    on sports I'm interested in as well.
+                    On top of just technology I also want to talk about the other passions I have. For now this will include any recipes I have been working on. So I hope you're
+                    looking forward to great new meal ideas. Besides just cooking I'm also going to discuss various different sports topics. For now those have been classified 
+                    under boarding, hockey, and miscellaneous. Boarding will contain posts about skateboarding, longboard, and snowboarding typically. Mostly that content will
+                    depending on seasons, and lately I have reignited my fire for skateboarding. Hockey is self explanatory. Lastly I also have a lot of minor interests, or 
+                     more so less interesting topics, that I might have some extra content for like running or basketball. These will go under miscellaneous for now. 
                 </p>
+                
             </div>
          </div>
         );
