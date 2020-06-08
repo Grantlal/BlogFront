@@ -5,13 +5,13 @@ import './Home.css';
 export default function render()
 {
         return (
-          <div>
+          <div class="container">
             <div class="container">
                 <div class="jumbotron" id="Jumbo">
-                    <h2>Welcome to My Hideout</h2>      
+                    <h1>Welcome to My Hideout</h1>      
                 </div>     
             </div>
-            <div id="MainText">
+            <div class="container" id="MainText">
                 <p>
                     <pre class="startTab" /> I think this is the part where I decide how to explain what I'm doing here, but the problem I keep running into is that I'm 
                     not exactly sure what I'm doing here. Ultimately I believe this will be a playground for myself to play with a bunch of new technologies, design patterns,
