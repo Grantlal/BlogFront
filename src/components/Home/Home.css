@@ -4,6 +4,7 @@
     margin-left: -50vw;
     left: 50%;
     background-color: blueviolet;
+    padding-top: 150px;
 }
 
 #MainText {
@@ -13,7 +14,6 @@
 }
 
 .startTab {
-    padding-left: 2px;
 }
 .container {
     display: flex;

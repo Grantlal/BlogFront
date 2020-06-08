@@ -8,7 +8,6 @@ export default function render()
           <div class="container">
             <div class="container">
                 <div class="jumbotron" id="Jumbo">
-                    <h1>Welcome to My Hideout</h1>      
                 </div>     
             </div>
             <div class="container" id="MainText">

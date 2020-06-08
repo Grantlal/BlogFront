@@ -5,6 +5,12 @@ import './Boarding.css';
 export default function render()
 {
         return (
-          <h2>Boarding Page</h2>
+          <div>
+          <div>
+              <div class="jumbotron" id="Jumbo">
+                  <h1>Boarding</h1>      
+              </div>     
+          </div>
+        </div>
         );
 }
