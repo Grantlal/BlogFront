@@ -4,7 +4,6 @@
     margin-left: -50vw;
     left: 50%;
     background-color: blueviolet;
-    padding-top: 150px;
 }
 
 #MainText {
@@ -13,8 +12,6 @@
     text-align: left;
 }
 
-.startTab {
-}
 .container {
     display: flex;
     flex-direction: column;

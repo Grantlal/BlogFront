@@ -1,10 +1,20 @@
-import React from 'react'
+import React from 'react';
 import './Recipes.css';
 
 
 export default function render()
 {
         return (
-          <h2>Recipes Page</h2>
+          <div class="container">
+            <div class="container">
+              <div class="jumbotron" id="RecJumbo">
+              </div>     
+            </div>
+            <div class="container" id="MainText">
+              <p>
+                toaster
+              </p>
+            </div>
+          </div>
         );
 }

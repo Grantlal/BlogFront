@@ -7,6 +7,14 @@
     padding-top: 150px;
 }
 
+#RecJumbo {
+    background-color: limegreen;
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+}
+
 #MainText {
     width: 70vw;
     font-size: 20px;

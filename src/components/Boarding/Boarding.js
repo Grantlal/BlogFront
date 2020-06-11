@@ -52,7 +52,8 @@ export default function render()
               entertaining podcast. I start skating a bit more for fun here and there, but there's a global pandemic going on right now that frowns upon me going to 
               the skateparks. My last board was probably about 5 years old and just got a massive pressure crack so I bought a new deck and shoes. I'm really excited to
               continue learning and becoming a better skateboarder as time goes on. I think for the next entry in the skateboarding side I'm going to talk about the new deck
-              and how it's a lot different from what I'm used to. 
+              and how it's fairly different from what I'm used to. Thank you so much for taking the time to read this as I know it couldn't have been that enticing. We'll 
+              start gettin to the juicy opinions soon, I promise!
             </p>
           </div>
         </div>
