@@ -30,16 +30,6 @@ function App() {
             <a class="nav-link" href="/Technology">Technology</a>
           </li>
 
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">
-              Sports
-            </a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="/Hockey">Hockey</a>
-              <a class="dropdown-item" href="/Boarding">Boarding</a>
-              <a class="dropdown-item" href="/Misc">Miscellaneous</a>
-            </div>
-          </li>
         </ul>
         </nav>
 

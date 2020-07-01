@@ -18,14 +18,15 @@ export default function render()
                 </p>
                 <p>
                     On top of just technology I also want to talk about the other passions I have. For now this will include any recipes I have been working on. So I hope you're
-                    looking forward to great new meal ideas. Besides just cooking I'm also going to discuss various different sports topics. For now those have been classified 
-                    under boarding, hockey, and miscellaneous. Boarding will contain posts about skateboarding, longboard, and snowboarding typically. Mostly that content will
-                    depending on seasons, and lately I have reignited my fire for skateboarding. Hockey is self explanatory. Lastly I also have a lot of minor interests, or 
-                     more so less interesting topics, that I might have some extra content for like running or basketball. These will go under miscellaneous for now. 
+                    looking forward to great new meal ideas. Originally I was going to also include a bunch of my personal hobbies to write about. Things like skateboarding, 
+                    hockey, and etc. When I started building this site I was originally including those sections, but decided against it. Later if I wish to go down that rabbit 
+                    whole I think I will make a sister blog. Then I can talk about the technology on this blog about the other blog. It'll be neat. Anyways once I began development
+                    including all that extra work it proved to be a lot to initally maintain, and honestly that not what I'm here for. Ultimately I would like to stay agile and make 
+                    the small functional changes whenever I can as I can. So hopefully I can get this out there pretty soon so anyone interested can take a read!
                 </p>
                 <p>
                     If you've made it this far I just wanted to thank you for supporting me! If there's any comments or ideas you have about what I can do with the blog
-                    please don't hesitate to reach out to me through whatever platform you know how to reach me at. Otherwise I'll get some professional-ish contact info
+                    please don't hesitate to reach out to me through whatever platform you know how to reach me at. Otherwise I'll get some professional contact info
                     up soon. 
                 </p>
                 
