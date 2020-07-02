@@ -29,8 +29,14 @@ export default function render()
                 only had a few small oopsies through the year too using it. This leads up to the stockpot. Another tool that I think is such an underrated piece of kitchen equipment. 
                 With a single large stockpot you can make any amount of pasta, soups, broths, CHILI, seriously you name it. The stainless steel stockpot I had was perfect to maybe
                 brown some meat and vegetables, then use the fond it made to make deliciuous soups and chili. Is chili a soup? Let me know how you feel. I think it's a grey area and 
-                I probably lean more towards it not being a soup. Distractions aside the large stainless stockpot is amazing and you should invest the money into one. Now 
+                I probably lean more towards it not being a soup. Distractions aside the large stainless stockpot is amazing and you should invest the money into one. Now this list
+                isn't everything I use, but it's what I use most frequently. So I think if you get a quality pan you love, have a semi decent knife set, and that stockpot you can make
+                basically whatever you want.
               </p>
+              <p>
+                There really isn't much else I actually wanted to talk about here actually. So thank you for reading and I look forward to being able to continue down this path of culinary
+                adventure with everyone reading.
+              </p> 
             </div>
           </div>
         );
