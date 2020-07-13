@@ -29,6 +29,9 @@ function App() {
           <li class="nav-item">
             <a class="nav-link" href="/Technology">Technology</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/Boarding">Boarding</a>
+          </li>
 
         </ul>
         </nav>
