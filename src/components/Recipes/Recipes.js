@@ -7,8 +7,7 @@ export default function render()
         return (
           <div class="container">
             <div class="container">
-              <div class="jumbotron" id="RecJumbo">
-              </div>     
+              <div class="jumbotron" id="RecJumbo"> </div>     
             </div>
             <div class="container" id="MainText">
               <p>

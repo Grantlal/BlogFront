@@ -3,21 +3,15 @@
     position: relative;
     margin-left: -50vw;
     left: 50%;
-    background-color: blueviolet;
+    background-color: rgb(255, 2, 57);
     padding-top: 150px;
 }
 
-#RecJumbo {
-    background-color: limegreen;
-    width: 100vw;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-}
+
 
 #MainText {
     width: 70vw;
-    font-size: 20px;
+    font-size: 1.75vw;
     text-align: left;
 }
 

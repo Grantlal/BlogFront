@@ -15,7 +15,7 @@ function App() {
       <header className="App-header">
       <Router>
         <Route path='/' exact={true} component={Home} />
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="navbro">
         <a class="navbar-brand" href="/Home">
           <img src="images/header.jpg" alt="Logo" />
         </a>

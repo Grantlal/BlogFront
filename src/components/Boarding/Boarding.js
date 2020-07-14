@@ -7,10 +7,9 @@ export default function render()
         return (
           <div class="container">
           <div class="container">
-              <div class="jumbotron" id="Jumbo">
-              </div>     
+              <div class="jumbotron" id="BoardJumbo"> </div>     
           </div>
-          <div id="MainText">
+          <div class="container" id="MainText">
             <p>
               Yo welcome to the what could be the best section here! The first thing I wanted to talk about here is a brief overview of my skateboarding story. 
               If we start out that way once I start going into more specific content hopefully you the reader can better understand where I'm coming from. 
@@ -25,11 +24,12 @@ export default function render()
             </p>
             <p>
               Anyways the gang started to skateboard a lot more. This started with our driveways and the streets where we learned some basic tricks like ollies and
-              shuv-ies. We actually also bought a small round-flat rail and absolutely horrendous kicker. When we found out none of us could hit those things we ended
-              up building planky. Planky was made from some old two by fours and the metal end of a bed frame. This legend sits a solid like 10 inches maybe from the
-              ground, and has a few screws that stick out. The beauty of this obstacle was though, that we could hit it. So I remember having the guys over and 
+              shuv-ies. We actually also bought a small round-flat rail and an absolutely horrendous plastic kicker. Well the rail was not a beginner obstacle in my 
+              opinion, and that kicker moved whenever you would hit it because we never screwed or weighed it down. When we found out none of us could hit those things
+              we ended up building planky. Planky was made from some old two by fours and the metal end of a bed frame. This legend sits a solid like 10 inches maybe from 
+              the ground, and has a few screws that stick out. The beauty of this obstacle was though, that we could hit it. So I remember having the guys over and 
               we would have a little driveway session with planky and the other obstacles. After we were tuckered out we'd go back inside and pound some Dr Pepper 
-              probably and paly videogames until three in the morning. We didn't go to the skatepark really much at all yet, but that's coming. 
+              probably and play videogames until three in the morning. We didn't go to the skatepark really much at all yet, but that's coming. 
             </p>
             <p>
               I now had become a freshman in high school and that's when I started going to the skatepark a lot more. Meeting some friends in school who also were 

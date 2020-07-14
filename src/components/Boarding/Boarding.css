@@ -1,14 +1,16 @@
-#Jumbo {
+#BoardJumbo {
     width: 100vw;
     position: relative;
     margin-left: -50vw;
     left: 50%;
     background-color: blueviolet;
+    padding-top: 150px;
+
 }
 
 #MainText {
     width: 70vw;
-    font-size: 20px;
+    font-size: 1.75vw;
     text-align: left;
 }
 
