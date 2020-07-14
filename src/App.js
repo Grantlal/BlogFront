@@ -3,9 +3,7 @@ import './App.css';
 import Recipes from './components/Recipes/Recipes'
 import Home from './components/Home/Home'
 import Technology from './components/Technology/Technology'
-import Hockey from './components/Hockey/Hockey'
 import Boarding from './components/Boarding/Boarding'
-import Misc from './components/Misc/Misc'
 import {
   BrowserRouter as Router,
   Switch,
@@ -40,9 +38,7 @@ function App() {
         <Route path="/Home" component={Home} />
         <Route path="/Recipes" component={Recipes} />
         <Route path="/Technology" component={Technology} />
-        <Route path="/Hockey" component={Hockey} />
         <Route path="/Boarding" component={Boarding} />
-        <Route path="/Misc" component={Misc} />
       </Switch>
     </Router>
   </header> 
