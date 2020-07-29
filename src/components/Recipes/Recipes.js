@@ -10,6 +10,7 @@ export default function render()
               <div class="jumbotron" id="RecJumbo"> </div>     
             </div>
             <div class="container" id="MainText">
+              <h1 class="headline"> Starter Tools </h1>
               <p>
                 Hi there! Welcome to where I'm going to keep a bunch of knowledge on my cooking habits. For the first entry I don't think I will go over any particular
                 recipe, and instead I will give you an idea what kinds of recipes to expect from me. Throughout this first post I will go through some of my favorite 

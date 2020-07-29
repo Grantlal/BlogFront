@@ -1,0 +1,14 @@
+#TechJumbo {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    background-color: rgb(55, 0, 255);
+    padding-top: 150px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}

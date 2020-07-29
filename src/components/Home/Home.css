@@ -7,16 +7,6 @@
     padding-top: 150px;
 }
 
-
-
-#MainText {
-    width: 70vw;
-    font-size: 1.75vw;
-    text-align: left;
-}
-
-.startTab {
-}
 .container {
     display: flex;
     flex-direction: column;

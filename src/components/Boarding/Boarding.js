@@ -10,8 +10,9 @@ export default function render()
               <div class="jumbotron" id="BoardJumbo"> </div>     
           </div>
           <div class="container" id="MainText">
+            <h1 class="headline"> A Skateboarding Beginning </h1>
             <p>
-              Yo welcome to the what could be the best section here! The first thing I wanted to talk about here is a brief overview of my skateboarding story. 
+              Yo! Welcome to the what could be my favorite section here! The first thing I wanted to talk about here is a brief overview of my skateboarding story. 
               If we start out that way once I start going into more specific content hopefully you the reader can better understand where I'm coming from. 
               Without any more fluff let's move onto to the good stuff.
             </p>
