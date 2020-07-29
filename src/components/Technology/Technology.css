@@ -12,6 +12,10 @@
     padding-top: 3vh;
 }
 
+#LastHeader {
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+}
 .container {
     display: flex;
     flex-direction: column;

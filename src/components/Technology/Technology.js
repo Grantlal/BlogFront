@@ -44,8 +44,35 @@ export default function render()
                   easy to organize. We should move on to the juiciest part of this post, what I don't like. 
                 </p>
                 <p>
-                  React is powerful and easy to learn, but it definitely contains problems. Something that I have found commonplace in the software world is that flexibility leads
-                  to confusion. By creating reusable components in React we  
+                  React is powerful and easy to learn, but it definitely has problems. Something that I have found commonplace in the software world is that flexibility leads
+                  to confusion. Much like how a short elder green guy once said "Anger lead fear, fear leads to hate, and hate leads to suffering," React follows a similar path. 
+                  By leaving engineers with so much flexibility on when and where to use react components each of us using React have different opinions on when to use it. 
+                  To complete the comparison, React leads to flexibility, flexibility leads to discussion, and discussion leads to having multiple correct answers. When you have 
+                  multiple ways to do something right it leaves us with problem. Lets take for example I am learning how to use React. If I were to get a role as a react developer
+                  somewhere they would likely have a vastly different way of doing things. I think React's nature of being only adopted gradually or when you want to will lead to
+                  vastly different best practices. My current favorite language C# (ForeShadowing) has this problem somewhat, but there's definitely less room for intrepretation. 
+                  There are powerful tools built in that say if you're going to do blank, you could and should use blank. For example if I had a list and I wanted the first entry, 
+                  I would just use a simple .First Linq command. With react there's too much abstraction on when exactly should I split something into a component, or just use React
+                  anyways. 
+                </p>
+                <p>
+                  To put some closure on my thoughts about React it is fairly easy to start using, can be really nice to organize repositories, and has some inherent complexity issues.
+                  For the beginner developer to jump in to React I think it could prove extremely difficult, but also very rewarding. By not forcing the frameworks abilities onto the 
+                  them, they could have a great opportunity to become familiar with the popular framework while still learning loads about basic web development. I've said it a few times
+                  now, but seriously the flexibility is wonderful for myself as solo developer. I foresee being a part of team working with react would cause some larger discussions
+                  that take away time from the fun stuff, but that's not the worst thing. If you are someone looking to try to what I've found to be the most popular javascript LIBRARY, 
+                  I definitely recommend it for a personal project, and that could lead to you finding your new favorite way to build responsive component based webpages. 
+                </p>
+                <h1 id="LastHeader">A Brief Look into the Future</h1>
+                <p>
+                  If you are the software engineer type you could easily find that this is almost exclusively a statically typed website. Go figure, why put something out that
+                  doesn't have to be yet! Go agile development and building minimally viable products! My plan is for the technology to be the majority of my blogging experience 
+                  right now. I think it's so interesting to out and find new frameworks, build an application, and compare the processes between each. Like why would I want to use 
+                  Django over FastApi for example? I don't know, somebody could tell me, I could read about it, or why not go out and do it! There are so many neato tech stacks out 
+                  there that I want to try that I just can't help myself. I am going to start building a back-end application that this website can reach to retrieve blog entries next. 
+                  It might not be fully functioning at the time that I write another blog entry, but we can certainly see what happens. So if things stay static for a while, be patient as 
+                  that is exactly what I'm working on now. Thank you so much for reading this long entry, I truly appreciate your support. Please don't hesitate to reach out to me with any
+                  questions or comments you have about what I've written as I love discussions. 
                 </p>
               </div>
             </div>

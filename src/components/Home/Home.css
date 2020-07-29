@@ -13,7 +13,11 @@
     margin-left: -50vw;
     left: 50%;
     text-align: center;
-font-size: .7vw;
+font-size: 2vh;
+}
+
+#footyPajamas {
+    padding-right: 10vw;
 }
 
 .container {
