@@ -7,6 +7,10 @@
     padding-top: 150px;
 }
 
+#MiddleHeader {
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+}
 
 .container {
     display: flex;
