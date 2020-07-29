@@ -13,26 +13,23 @@ export default function render()
                 <h1 class="headline"> Initial Thoughts on React </h1> 
                 <p>
                   Hey there! If you're most excited about what I have to say about certain technologies, frameworks, and methodologies well you're in luck. This entry is going to 
-                  go over how I've felt using react compared to the other javascript frameworks I have experience with. For now my brain is saying we'll go through it's strengths, 
-                  weakness, and the overall satisfaction I've had using it. I realize this will likely change through the months, and maybe even years I spend building this blog, but
-                  that just means we'll have more content eventually!
+                  go over how I've felt using react compared to the other javascript frameworks I have experience with. For now my brain is saying we'll go through what React is, 
+                  how I've felt using it, it's strengths, weaknesses, and the overall satisfaction I've had using it. I realize this will likely change through the months, 
+                  and maybe even years I spend building this blog, but that just means we'll have more content eventually!
                 </p>
                 <p>
-                  To start I think that the tools you use in the kitchen are highly important. It's similar to the idea that how can build something of quality from something
-                  that is not of quality. Anyways I think the most important tools I use most frequently are some sort of nice pan (We can go so into depth on this is absurd), 
-                  a half decent knife set, quite a large stockpot, and some random other objects maybe. Anyways the normally the big debate I see on cooking discussion is about
-                  the knife. By all means if you are passionate for knives and their construction I totally understand. A high grade cutlery set is something I really wish I 
-                  had. Instead I think the method of cooking is what will really help. For this you need good pans and to take of them. I currently am on a big cast iron binge
-                  of cooking as that thing is magical. Like the crust you can develop with a cast iron is just wonderful. I definitely recommend getting one if you don't have one, 
-                  but unfortunately it's not as totally versatile as a stainless steel or non-stick for that matter. I also frequent the non-stick, I know I shouldn't, but I'm poor. 
-                  Someone send me an all clad. Anyways moving on the knife discussion again I've used a cheap set of knives that were really sharp and that worked fantastic. My one
-                  Chef's knife from a inexpesive set (Like $40?) lasted me nearly a year with absolutely no problems. I occassionally tried to keep it sharp and it was perfect. I
-                  only had a few small oopsies through the year too using it. This leads up to the stockpot. Another tool that I think is such an underrated piece of kitchen equipment. 
-                  With a single large stockpot you can make any amount of pasta, soups, broths, CHILI, seriously you name it. The stainless steel stockpot I had was perfect to maybe
-                  brown some meat and vegetables, then use the fond it made to make deliciuous soups and chili. Is chili a soup? Let me know how you feel. I think it's a grey area and 
-                  I probably lean more towards it not being a soup. Distractions aside the large stainless stockpot is amazing and you should invest the money into one. Now this list
-                  isn't everything I use, but it's what I use most frequently. So I think if you get a quality pan you love, have a semi decent knife set, and that stockpot you can make
-                  basically whatever you want.
+                  So what is React? For those new to web development or javascript in general, React is essentially a set of extra tools that you can use. In my brief search React is 
+                  actually a library, but I refer to it as a framework frequently. The two are very similar and the only real difference is the inversion of control. In a library we the
+                  developer are in control of the flow of the application. Compare this to a framework where they have the groundwork already laid out on how the flow of interactions happens.
+                  Ultimately in my opinion if someone were to call React a framework I won't get fussy because I call it framework most of the time anyways. With the discussion of what 
+                  constitutes a framework or not over finally, how do we actually use react?
+                </p>
+                <p>
+                  So for starters how do we actually start using React. Well I highly recommend using the wonderful package manager known as, node package manager (npm). By using the 
+                  command npx create-react-app you'll have a fully functioning webpage that can utilize react whenever you wish. From there you can choose to use as much or as little 
+                  snippets of react power as you wish. In my own words this is essentially done by injecting (java)script into your html. From here you can create new react components
+                  and other such items if you see fit. On my end I have been trying to use components more frequently as they really help with reusability. Once you get these things done
+                  just continue on creating a website exactly how you normally would with the tools you know and love. 
                 </p>
                 <p>
                   There really isn't much else I actually wanted to talk about here actually. So thank you for reading and I look forward to being able to continue down this path of culinary

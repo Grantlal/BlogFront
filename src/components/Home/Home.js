@@ -29,7 +29,7 @@ export default function render()
                     please don't hesitate to reach out to me through whatever platform you know how to reach me at. Otherwise I'll get some professional contact info
                     up soon. 
                 </p>
-                
+                <footer class="ContactInfo">https://linkedin.com/grantlal       https://github.com/grantlal</footer>
             </div>
          </div>
         );
