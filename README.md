@@ -33,3 +33,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
+### Docker Stuff
+
+Welcome to where I have been having a field day so far. I will list some of the most important commands and their functionality I have found so far. :) Also I installed docker such that I have to run sudo beforehand err'time. Go figure. 
+
+So lets start with building a new image. The following command builds a new image and names it with the tag "grantlal/blog". Also way too many times I forget to add the period at the end. Don't do it that way. 
+sudo docker build -t grantlal/blog .
+
+After building an image we'll have to actually allow it to run. The command below will start a new container to run named BloggyFresh mapped to port 3001 from the image we created previously, grantlal/blog.
+sudo docker run --name BloggyFresh -p 3001:3000 -it -d grantlal/blog
